@@ -1,0 +1,16 @@
+Package: viaf
+Type: Package
+Title: Access the Virtual International Authority File
+Version: 0.1
+Date: 2015-06-18
+Authors@R: person(given = "Najko", family = "Jahn",
+    email = "najko@uni-bielefeld.de", role = c("cre", "cph"))
+Maintainer: Najko Jahn <najko.jahn@uni-bielefeld.de>
+Description: Client for the Virtual International Authority File (VIAF).
+    Viaf links authority data from national libraries. This API does not require authentication.
+License: MIT
+LazyData: TRUE
+Imports: httr,
+    magrittr,
+    jsonlite
+Suggests: testthat
