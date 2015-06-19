@@ -11,6 +11,6 @@ Description: Client for the Virtual International Authority File (VIAF).
 License: MIT
 LazyData: TRUE
 Imports: httr,
-    magrittr,
+    dplyr,
     jsonlite
 Suggests: testthat

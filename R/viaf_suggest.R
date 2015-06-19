@@ -2,10 +2,15 @@
 #'
 #' This function searches for VIAF entries
 #'
+#' @export
+#' @import dplyr
+#'
 #' @param query search term
 #'
-#' @examples dontrun{
-#' viaf_suggest("Egelhaaf, Martin")}
+#' @examples
+#' \dontrun{
+#' viaf_suggest("Egelhaaf, Martin")
+#' }
 
 viaf_suggest <- function(query = NULL){
   if(is.null(query))

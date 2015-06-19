@@ -12,3 +12,11 @@ notifications:
   email:
     on_success: change
     on_failure: change
+
+r_binary_packages:
+  - httr
+  - dplyr
+  - jsonlite
+
+after_success:
+  - Rscript -e 'covr::codecov()'

@@ -13,7 +13,8 @@ viaf_suggest(query = NULL)
 This function searches for VIAF entries
 }
 \examples{
-dontrun{
-viaf_suggest("Egelhaaf, Martin")}
+\dontrun{
+viaf_suggest("Egelhaaf, Martin")
+}
 }
 
