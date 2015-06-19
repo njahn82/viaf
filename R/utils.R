@@ -1,3 +1,9 @@
+#' utility functions
+#'
+#' @import httr
+#' @import jsonlite
+#' @export
+
 tt_GET <- function(path, ...){
   if (is.null(path))
     stop("Nothing to parse")
@@ -12,7 +18,7 @@ tt_GET <- function(path, ...){
 tt_check <- function(req) {
   if (req$status_code < 400)
     return(invisible())
-  stop(http_status(x)$message, "\n", call. = FALSE)
+  stop("HTTP failure: ", req$status_code, "\n", call. = FALSE)
 }
 
 tt_parse_js <- function(req) {
