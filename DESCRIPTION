@@ -4,7 +4,7 @@ Title: Access the Virtual International Authority File
 Version: 0.1
 Date: 2015-06-18
 Authors@R: person(given = "Najko", family = "Jahn",
-    email = "najko.jahn@uni-bielefeld.de", role = c("cre", "cph"))
+    email = "najko.jahn@uni-bielefeld.de", role = c("aut", "cre"))
 Author: Najko Jahn [aut, cre]
 Maintainer: Najko Jahn <najko.jahn@uni-bielefeld.de>
 Description: Client for the Virtual International Authority File (VIAF).
