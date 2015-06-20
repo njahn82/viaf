@@ -1,8 +1,4 @@
-#' utility functions
-#'
-#' @import httr
-#' @import jsonlite
-#' @export
+# utility functions
 
 tt_GET <- function(path, ...){
   if (is.null(path))
